@@ -25,8 +25,7 @@ public class LipSyncController : MonoBehaviour
         if (!engine || !dialogueClip) return;
 
 
-        if (!InteractionGate.Instance.TryLock())
-            return;
+      
 
         audioSource.clip = dialogueClip;
         audioSource.Play();

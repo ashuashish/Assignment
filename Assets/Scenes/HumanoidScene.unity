@@ -563,7 +563,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867186180}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3296891a7abf6bd4d82cef8645025847, type: 3}
   m_Name: 
@@ -1103,8 +1103,8 @@ MonoBehaviour:
   smileTrigger: SmileGesture
   sadTrigger: SadGesture
   resetTrigger: ResetGesture
-  blendDuration: 0.35
-  holdDuration: 2
+  blendDuration: 0.3
+  holdDuration: 1.7
   gapBetweenReactions: 0.8
 --- !u!82 &1258252302
 AudioSource:
@@ -1682,7 +1682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2095063315
 RectTransform:
   m_ObjectHideFlags: 0

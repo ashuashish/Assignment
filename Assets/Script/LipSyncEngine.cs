@@ -66,7 +66,7 @@ public class LipSyncEngine : MonoBehaviour
         playing = false;
         ResetAllBlendshapes();
         AnimationTrigger(false);
-        InteractionGate.Instance.Release();
+     
     }
 
     // =============================

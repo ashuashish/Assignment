@@ -59,7 +59,10 @@ public class ReactionSequence_BlendShapes : MonoBehaviour
             return;
 
 
+
         activeSequence = StartCoroutine(ReactionSequence());
+
+        GetComponent<LipSyncController>().PlayDialogue();
     }
 
     // =============================
